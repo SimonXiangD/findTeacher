@@ -12,8 +12,8 @@ import userAuth from "./pages/auth/userAuth.vue";
 const routes = [
     {
         path: '/',
-        redirect: '/teachers',
-        // component: null,
+        // redirect: '/teachers',
+        component: null,
     },
 
     {
