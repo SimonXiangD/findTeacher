@@ -13,7 +13,9 @@ export default {
     },
 
     created() {
+        console.log('创建开始！')
         this.$store.dispatch('tryLogin');
+        console.log('创建阶段结束！')
     }
 }
 

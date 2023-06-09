@@ -1,5 +1,5 @@
 import { createRouter, } from "vue-router";
-// import { createWebHashHistory } from "vue-router";
+import { createWebHistory } from "vue-router";
 
 import TeachersList from './pages/teachers/TeachersList.vue'
 import TeacherDetail from './pages/teachers/TeacherDetail.vue'
@@ -62,7 +62,7 @@ const routes = [
 
 const router = createRouter({
 
-    // history: createWebHashHistory(),
+    history: createWebHistory(),
     routes
 
 })
