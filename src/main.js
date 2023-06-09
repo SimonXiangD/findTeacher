@@ -20,6 +20,6 @@ app.component('base-badge', BaseBadge)
 app.component('base-spinner', BaseSpinner)
 app.component('base-dialog', BaseDialog)
 
-console.log(store)
+// console.log(store)
 
 app.mount('#app')
