@@ -1,5 +1,5 @@
 import { createRouter, } from "vue-router";
-import { createWebHashHistory } from "vue-router";
+// import { createWebHashHistory } from "vue-router";
 
 import TeachersList from './pages/teachers/TeachersList.vue'
 import TeacherDetail from './pages/teachers/TeacherDetail.vue'
@@ -12,8 +12,8 @@ import userAuth from "./pages/auth/userAuth.vue";
 const routes = [
     {
         path: '/',
-        // redirect: '/teachers',
-        component: null,
+        redirect: '/teachers',
+        // component: null,
     },
 
     {
@@ -62,7 +62,7 @@ const routes = [
 
 const router = createRouter({
 
-    history: createWebHashHistory(),
+    // history: createWebHashHistory(),
     routes
 
 })
